@@ -29,6 +29,9 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #pragma once
 
+#pragma warning(push)
+#pragma warning(disable : 4251)
+
 #include <algorithm>
 #include <functional>
 #include <iterator>
@@ -1157,3 +1160,4 @@ public:
 // tab-width:4
 // c-basic-offset:4
 // End:
+#pragma warning(pop)
